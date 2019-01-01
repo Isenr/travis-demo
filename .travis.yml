@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "10"
+dist: trusty
+sudo: required
+branches:
+  only:
+  - master
+script:
+- npx ng lint
+- npx ng build --prod --base-href https://Isenr.github.io/travis-demo/
