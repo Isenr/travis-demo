@@ -7,5 +7,5 @@ branches:
   only:
   - master
 script:
-- npx ng lint
-- npx ng build --prod --base-href https://Isenr.github.io/travis-demo/
+- yarn ng lint
+- yarn ng build --prod --base-href https://Isenr.github.io/travis-demo/
