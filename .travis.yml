@@ -8,4 +8,5 @@ branches:
   - master
 script:
 - yarn ng lint
+- yarn test:headless
 - yarn ng build --prod --base-href https://Isenr.github.io/travis-demo/
